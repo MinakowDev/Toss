@@ -1,0 +1,10 @@
+{
+  "name": "flow-launcher-obsidian-kanban",
+  "version": "0.1.0",
+  "description": "Flow Launcher plugin to create weekly-partitioned Kanban tasks for Obsidian Bases",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "license": "MIT"
+}

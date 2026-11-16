@@ -1,0 +1,30 @@
+body:
+  - type: input
+    attributes:
+      name: vaultPath
+      label: Obsidian Vault Path
+      description: Full path to your Obsidian Vault folder (e.g. D:\Notes\MyVault)
+  - type: input
+    attributes:
+      name: tasksFolder
+      label: Tasks Folder
+      description: Subfolder inside the Vault where tasks are stored
+      defaultValue: Tasks
+  - type: input
+    attributes:
+      name: statuses
+      label: Kanban Columns (comma-separated)
+      description: Available statuses for your Kanban board
+      defaultValue: Backlog, Todo, In Progress, Done
+  - type: input
+    attributes:
+      name: defaultStatus
+      label: Default Status
+      description: Default column when no @status is specified
+      defaultValue: Todo
+  - type: checkbox
+    attributes:
+      name: partitionByWeek
+      label: Partition by ISO Week (YYYY-Www)
+      description: Store tasks in weekly subfolders (e.g. Tasks/2026-W47/)
+      defaultValue: true

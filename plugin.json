@@ -1,0 +1,12 @@
+{
+  "ID": "d8a9c4e2-7b31-4f5a-9e12-3c8b7a6d5e4f",
+  "ActionKeyword": "kb",
+  "Name": "Toss",
+  "Description": "Quickly create Kanban tasks in your Obsidian Vault",
+  "Author": "Minakow",
+  "Version": "0.1.0",
+  "Language": "javascript",
+  "Website": "",
+  "IcoPath": "assets\\logo.png",
+  "ExecuteFileName": "src\\index.js"
+}
